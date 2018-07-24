@@ -4,6 +4,7 @@ def highest_student_gpa
   SELECT MAX(GPA) AS highest_student_gpa
   FROM Students;
 end
+end
 
 def lowest_student_gpa
 end
