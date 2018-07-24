@@ -3,7 +3,7 @@
 def highest_student_gpa
   sqlite3 students.db
   SELECT MAX(GPA) FROM students;
-end
+
 end
 
 def lowest_student_gpa
