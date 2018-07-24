@@ -1,10 +1,8 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
-  sqlite3 
-
-  SELECT MAX(GPA) AS highest_student_gpa
-  FROM students;
+  sqlite3 students.db
+  SELECT MAX(GPA) FROM students;
 end
 end
 
